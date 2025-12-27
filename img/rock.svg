@@ -1,0 +1,13 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="150" height="150" rx="20" fill="#E6F2FF"></rect>
+  <path d="M35 90
+           Q25 70 40 55
+           Q55 35 80 40
+           Q110 45 115 70
+           Q120 95 95 105
+           Q70 115 50 105
+           Q40 100 35 90Z" fill="#9E9E9E" stroke="#555" stroke-width="4"></path>
+  <circle cx="65" cy="70" r="4" fill="#333"></circle>
+  <circle cx="85" cy="70" r="4" fill="#333"></circle>
+  <path d="M65 85 Q75 92 85 85" stroke="#333" stroke-width="3" fill="none"></path>
+</svg>
