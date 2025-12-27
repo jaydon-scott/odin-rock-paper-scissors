@@ -3,8 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Odin Rock Paper Scissors</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
   </head>
-  <script src="main.js"></script>
-  <body></body>
+
+  <body>
+    <div id="header">Welcome to Odin Rock Paper Scissors!</div>
+
+    <div id="game-container">
+      <div id="game-text">Make a choice!</div>
+      <div id="choice-container">
+        <div id="player-choice-text">&nbsp;</div>
+        <div id="computer-choice-text">&nbsp;</div>
+      </div>
+      <div id="game-results">&nbsp;</div>
+    </div>
+
+    <div id="choices-container">
+      <button id="rock-btn" class="choice-btn">
+        <img src="img/rock.svg" class="choice-img" />
+      </button>
+      <button id="paper-btn" class="choice-btn">
+        <img src="img/paper.svg" class="choice-img" />
+      </button>
+      <button id="scissors-btn" class="choice-btn">
+        <img src="img/scissors.svg" class="choice-img" />
+      </button>
+    </div>
+
+    <div id="reset-container">
+      <button id="reset-btn" class="btn-visibility">Reset</button>
+    </div>
+  </body>
 </html>
